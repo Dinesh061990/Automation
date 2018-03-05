@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24009" started-at="2018-03-05T04:58:17Z" finished-at="2018-03-05T04:58:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24009" started-at="2018-03-05T04:58:17Z" finished-at="2018-03-05T04:58:41Z">
+      <class name="JoinNow">
+        <test-method status="PASS" signature="openBrower()[pri:0, instance:JoinNow@557b6a37]" name="openBrower" duration-ms="23957" started-at="2018-03-05T04:58:17Z" finished-at="2018-03-05T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrower -->
+      </class> <!-- JoinNow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
