@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="excel.Excel">
+        <methods>
+          <include name="TestFireFox" invocation-numbers="0 1 2 3"/>
+          <include name="Setup"/>
+          <include name="QuitTC"/>
+        </methods>
+      </class> <!-- excel.Excel -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

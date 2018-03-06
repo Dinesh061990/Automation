@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="web.Web">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="droppable"/>
+          <include name="Sortable"/>
+          <include name="Tooltip"/>
+          <include name="Accordion"/>
+          <include name="frames"/>
+          <include name="slider"/>
+          <include name="Tabs"/>
+          <include name="signup" invocation-numbers="0 1"/>
+          <include name="Datepicker"/>
+        </methods>
+      </class> <!-- web.Web -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="web.Web">
+        <methods>
+          <include name="droppable"/>
+          <include name="Sortable"/>
+          <include name="Tooltip"/>
+          <include name="Accordion"/>
+          <include name="frames"/>
+          <include name="slider"/>
+          <include name="Tabs"/>
+          <include name="Datepicker"/>
+        </methods>
+      </class> <!-- web.Web -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

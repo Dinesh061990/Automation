@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106970" started-at="2017-11-24T07:21:53Z" finished-at="2017-11-24T07:23:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106970" started-at="2017-11-24T07:21:53Z" finished-at="2017-11-24T07:23:40Z">
+      <class name="data.Data">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:data.Data@1753acfe]" name="beforeMethod" is-config="true" duration-ms="32717" started-at="2017-11-24T12:51:53Z" finished-at="2017-11-24T12:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:data.Data@1753acfe]" name="Test" duration-ms="19194" started-at="2017-11-24T12:52:26Z" data-provider="dp" finished-at="2017-11-24T12:52:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dinesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[05/21/1990]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pp@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhi park]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[985455]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Cbe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TN]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[54522]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[dk@123]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[dk@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Email Already Exist] but found [ Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Email Already Exist] but found [ Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at data.Data.Test(Data.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:data.Data@1753acfe]" name="afterMethod" is-config="true" duration-ms="26" started-at="2017-11-24T12:52:45Z" finished-at="2017-11-24T12:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:data.Data@1753acfe]" name="beforeMethod" is-config="true" duration-ms="25433" started-at="2017-11-24T12:52:45Z" finished-at="2017-11-24T12:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:data.Data@1753acfe]" name="Test" duration-ms="29546" started-at="2017-11-24T12:53:10Z" data-provider="dp" finished-at="2017-11-24T12:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dinesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[05/21/1990]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RTREeDD668@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhi park]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[985455]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Cbe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TN]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[54522]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[dk@123]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[dk@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:data.Data@1753acfe]" name="afterMethod" is-config="true" duration-ms="24" started-at="2017-11-24T12:53:40Z" finished-at="2017-11-24T12:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- data.Data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Export-Package: com.beust.testng;version="6.13.1",org.testng.annotatio
+ ns;version="6.13.1",org.testng;version="6.13.1",org.testng.asserts;ve
+ rsion="6.13.1",org.testng.collections;version="6.13.1",org.testng.int
+ ernal;version="6.13.1",org.testng.internal.annotations;version="6.13.
+ 1",org.testng.internal.collections;version="6.13.1",org.testng.intern
+ al.invokers;version="6.13.1",org.testng.internal.junit;version="6.13.
+ 1",org.testng.internal.reflect;version="6.13.1",org.testng.internal.t
+ hread;version="6.13.1",org.testng.internal.thread.graph;version="6.13
+ .1",org.testng.junit;version="6.13.1",org.testng.log;version="6.13.1"
+ ,org.testng.log4testng;version="6.13.1",org.testng.mustache;version="
+ 6.13.1",org.testng.reporters;version="6.13.1",org.testng.reporters.jq
+ ;version="6.13.1",org.testng.reporters.util;version="6.13.1",org.test
+ ng.util;version="6.13.1",org.testng.xml;version="6.13.1",org.testng.x
+ ml.dom;version="6.13.1",org.testng.xml.internal;version="6.13.1"
+Build-Date: 2017-11-27
+Bundle-SymbolicName: testng
+Bundle-Version: 6.13.1
+Bundle-Name: org.testng.testng
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1511792255881
+Created-By: 1.8.0_111 (Oracle Corporation)
+Tool: Bnd-2.4.0.201411031534
+
+
