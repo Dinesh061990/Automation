@@ -11,7 +11,7 @@ public class Ct_dec {
 	public static String password="alphacity@123";
 	public static String passsubmitpath="//*[@id=\"passwordNext\"]";
 	public static String gmailpath="//*[@id=\"gb\"]/div[1]/div[1]/div[2]/div[5]";
-	public static String composepath="//*[@id=\":87\"]/div/div";
+	public static String composepath="//div[@gh='cm']";
 	public static String topwd="alpacity123@gmail.com";
 	public static String tomail="//textarea[@aria-label='To']";
 	public static String tosubject="//input[@placeholder='Subject']";

@@ -7,25 +7,29 @@ public class ww extends Work_act {
 	
 	public void login() throws InterruptedException
 	{
-		if(checkele(Ct_dec.usernamepath)==true)
+		if(check(Ct_dec.usernamepath)==true)
 		{
 			dr.findElement(By.xpath(Ct_dec.usernamepath)).sendKeys(Ct_dec.username);
 		}
-		if(checkele(Ct_dec.submitpath)==true)
+		else
+		{
+		System.out.println("Element not found");
+		}
+		if(check(Ct_dec.submitpath)==true)
 		{
 			//System.out.print("workarea_works_submit");
-			clikce(Ct_dec.submitpath);
+			click(Ct_dec.submitpath);
 		}
-		if(checkele(Ct_dec.passwordpath)==true)
+		if(check(Ct_dec.passwordpath)==true)
 		{
 			
 			dr.findElement(By.xpath(Ct_dec.passwordpath)).sendKeys(Ct_dec.password);
 			
 		}
-		if(checkele(Ct_dec.passsubmitpath)==true)
+		if(check(Ct_dec.passsubmitpath)==true)
 		{
 			System.out.println("Entered into this");
-			clikce(Ct_dec.passsubmitpath);
+			click(Ct_dec.passsubmitpath);
 			Thread.sleep(2000);
 		}
 		
@@ -33,28 +37,28 @@ public class ww extends Work_act {
 	
 	public void validlogin()
 	{
-		if(checkele(Ct_dec.gmailpath)==true)
+		if(check(Ct_dec.gmailpath)==true)
 		{
 			System.out.print("Successfully logged in");
 		}
 		else
 		{
-			System.out.print("user account is invalid");
+			System.out.print("Loggin un successful");
 			dr.quit();
 		}
 	}
 	public void cmp() throws InterruptedException
 	{
-		if(checkele(Ct_dec.composepath)==true)
+		if(check(Ct_dec.composepath)==true)
 		{
-			clikce(Ct_dec.composepath);
+			click(Ct_dec.composepath);
 			dr.findElement(By.xpath(Ct_dec.tomail)).sendKeys(Ct_dec.topwd);
 			Thread.sleep(3000);
 			dr.findElement(By.xpath(Ct_dec.tosubject)).sendKeys(Ct_dec.tosub);
 			Thread.sleep(3000);
 			dr.findElement(By.xpath(Ct_dec.tomessage)).sendKeys(Ct_dec.tomes);
 			Thread.sleep(3000);
-			clikce(Ct_dec.click);
+			click(Ct_dec.click);
 			System.out.println("completed compose");
 		}
 		else

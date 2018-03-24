@@ -8,7 +8,7 @@ import Driverin.in_dr;
 public class Work_act extends in_dr {
 
 	
-	public void clikce(String xpath1) throws InterruptedException
+	public void click(String xpath1) throws InterruptedException
 	{
 		System.out.println("enter into this function");
 		dr.findElement(By.xpath(xpath1)).click();
@@ -16,12 +16,12 @@ public class Work_act extends in_dr {
 	}
 	
 	
-	public Object webff()
+	public Object web()
 	{
 		return this.dr;
 	}
 
-	public boolean checkele(String xpath)
+	public boolean check(String xpath)
 	{
 		boolean s= false;
 		WebElement webElement = dr.findElement(By.xpath(xpath));
