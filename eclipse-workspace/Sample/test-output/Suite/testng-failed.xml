@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Valid(failed)">
+    <classes>
+      <class name="sample.InvalidLogin">
+        <methods>
+          <include name="Invalid"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="Valid"/>
+        </methods>
+      </class> <!-- sample.InvalidLogin -->
+    </classes>
+  </test> <!-- Valid(failed) -->
+  <test thread-count="5" name="Invalid(failed)">
+    <classes>
+      <class name="sample.InvalidLogin">
+        <methods>
+          <include name="Invalid"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="Valid"/>
+        </methods>
+      </class> <!-- sample.InvalidLogin -->
+    </classes>
+  </test> <!-- Invalid(failed) -->
+</suite> <!-- Failed suite [Suite] -->

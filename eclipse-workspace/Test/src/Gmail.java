@@ -1,15 +1,20 @@
 
 import java.util.List;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class Gmail {
-    
+
     static WebDriver driver = new FirefoxDriver(); 
-    
+    @BeforeTest 
     public static void Open_Gmail() {
         // TODO Auto-generated method stub
         
@@ -17,6 +22,7 @@ public class Gmail {
         driver.findElement(By.xpath("/html/body/nav/div/a[2]")).click();
         
                 }
+    @Test
     public static void Sign_In() throws InterruptedException {
         
         driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("dk061990");
@@ -29,7 +35,7 @@ public class Gmail {
         System.out.println("Sign-In Successfull");
         Thread.sleep(3000);
     }
-    
+    @Test
     public static void Compose() throws InterruptedException {
     	
     	driver.findElement(By.xpath("//div[@gh='cm']")).click();
@@ -68,7 +74,7 @@ public class Gmail {
     	
         System.out.println("Open Email Successfull");    
     }
-
+@AfterTest
 	    public static void Sign_Out() throws InterruptedException {
 	    	driver.findElement(By.xpath("//div[@style='min-width: 150px;']")).click();
 	    	Thread.sleep(3000);

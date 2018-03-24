@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5662" started-at="2018-03-10T10:25:51Z" finished-at="2018-03-10T10:25:57Z">
+  <suite name="Suite" duration-ms="5764" started-at="2018-03-24T09:51:26Z" finished-at="2018-03-24T09:51:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5662" started-at="2018-03-10T10:25:51Z" finished-at="2018-03-10T10:25:57Z">
+    <test name="Test" duration-ms="5764" started-at="2018-03-24T09:51:26Z" finished-at="2018-03-24T09:51:32Z">
       <class name="pom.SignUpFormTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pom.SignUpFormTest@1877ab81]" name="setUp" is-config="true" duration-ms="3755" started-at="2018-03-10T10:25:51Z" finished-at="2018-03-10T10:25:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pom.SignUpFormTest@1877ab81]" name="setUp" is-config="true" duration-ms="3646" started-at="2018-03-24T09:51:26Z" finished-at="2018-03-24T09:51:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUp()[pri:0, instance:pom.SignUpFormTest@1877ab81]" name="signUp" duration-ms="1893" started-at="2018-03-10T10:25:55Z" finished-at="2018-03-10T10:25:57Z">
+        <test-method status="PASS" signature="signUp()[pri:0, instance:pom.SignUpFormTest@1877ab81]" name="signUp" duration-ms="2100" started-at="2018-03-24T09:51:30Z" finished-at="2018-03-24T09:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [InstanceTestSuite]" parallel="instances">
+  <test thread-count="2" name="InstanceTest(failed)" parallel="instances">
+    <classes>
+      <class name="sample.InvalidLogin">
+        <methods>
+          <include name="Invalid"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="Valid"/>
+        </methods>
+      </class> <!-- sample.InvalidLogin -->
+    </classes>
+  </test> <!-- InstanceTest(failed) -->
+</suite> <!-- Failed suite [InstanceTestSuite] -->

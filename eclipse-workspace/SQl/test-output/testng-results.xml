@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="14" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="97" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+    <groups>
+      <group name="database">
+        <method signature="SQL.testConnectMsSQL()[pri:0, instance:sql.SQL@28feb3fa]" name="testConnectMsSQL" class="sql.SQL"/>
+        <method signature="SQL.testConnectOracle()[pri:0, instance:sql.SQL@28feb3fa]" name="testConnectOracle" class="sql.SQL"/>
+      </group> <!-- database -->
+      <group name="selenium-test">
+        <method signature="SQL.runSelenium()[pri:0, instance:sql.SQL@28feb3fa]" name="runSelenium" class="sql.SQL"/>
+        <method signature="SQL.runSelenium1()[pri:0, instance:sql.SQL@28feb3fa]" name="runSelenium1" class="sql.SQL"/>
+        <method signature="TestSelenium.runSelenium()[pri:0, instance:sql.TestSelenium@68be2bc2]" name="runSelenium" class="sql.TestSelenium"/>
+        <method signature="TestSelenium.runSelenium1()[pri:0, instance:sql.TestSelenium@68be2bc2]" name="runSelenium1" class="sql.TestSelenium"/>
+        <method signature="SQL.runSelenium()[pri:0, instance:sql.SQL@6f7fd0e6]" name="runSelenium" class="sql.SQL"/>
+        <method signature="SQL.runSelenium1()[pri:0, instance:sql.SQL@6f7fd0e6]" name="runSelenium1" class="sql.SQL"/>
+        <method signature="TestSelenium.runSelenium()[pri:0, instance:sql.TestSelenium@27efef64]" name="runSelenium" class="sql.TestSelenium"/>
+        <method signature="TestSelenium.runSelenium1()[pri:0, instance:sql.TestSelenium@27efef64]" name="runSelenium1" class="sql.TestSelenium"/>
+      </group> <!-- selenium-test -->
+    </groups>
+    <test name="final" duration-ms="57" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+      <class name="sql.TestSelenium">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:sql.TestSelenium@68be2bc2]" name="runSelenium" duration-ms="9" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:sql.TestSelenium@68be2bc2]" name="runSelenium1" duration-ms="2" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- sql.TestSelenium -->
+      <class name="sql.SQL">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:sql.SQL@28feb3fa]" name="runSelenium" duration-ms="2" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:sql.SQL@28feb3fa]" name="runSelenium1" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+        <test-method status="PASS" signature="setupDB()[pri:0, instance:sql.SQL@28feb3fa]" name="setupDB" is-config="true" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDB -->
+        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:sql.SQL@28feb3fa]" name="testConnectMsSQL" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:sql.SQL@28feb3fa]" name="testConnectOracle" duration-ms="2" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+        <test-method status="PASS" signature="cleanDB()[pri:0, instance:sql.SQL@28feb3fa]" name="cleanDB" is-config="true" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDB -->
+        <test-method status="PASS" signature="runFinal()[pri:0, instance:sql.SQL@28feb3fa]" name="runFinal" duration-ms="1" depends-on-groups="database, selenium-test" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFinal -->
+      </class> <!-- sql.SQL -->
+    </test> <!-- final -->
+    <test name="selenium" duration-ms="13" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+      <class name="sql.SQL">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:sql.SQL@6f7fd0e6]" name="runSelenium" duration-ms="3" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:sql.SQL@6f7fd0e6]" name="runSelenium1" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- sql.SQL -->
+      <class name="sql.TestSelenium">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:sql.TestSelenium@27efef64]" name="runSelenium" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:sql.TestSelenium@27efef64]" name="runSelenium1" duration-ms="1" started-at="2018-03-21T07:23:09Z" finished-at="2018-03-21T07:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- sql.TestSelenium -->
+    </test> <!-- selenium -->
+  </suite> <!-- TestAll -->
+</testng-results>
